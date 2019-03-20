@@ -3,6 +3,7 @@ const express=require('express');
 const hbs=require('hbs')
 const geocode=require('./utils/utils.js')
 const forecast=require('./utils/forecast.js')
+const port1=process.env.PORT||3000
 
 const app=express();
 //app.com
@@ -88,4 +89,4 @@ app.get(('*'),(req,res)=>{
     })})
     
 
-app.listen(3000)
+app.listen(port1)
