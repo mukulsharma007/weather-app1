@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/style/style.css">
+        
+         <title>
+            Weather
+            
+        </title>
+        <link rel="icon" href="/images/weather.png"
+    </head>
+    <body>
+        <div class="main-content">
+        
+            {{>header}}
+            <h1>
+            {{name}}
+        </h1>
+<form>
+            <input placeholder="location">
+            <button>
+                submit
+            </button>
+        </form>
+        <p id="p1"></p>
+        <p id="p2"></p>
+        <p id="p3"></p>
+        </div>
+
+        
+        
+        <script src="javascript/script.js"></script>
+       
+        {{>foooter}}
+    </body>
+</html>
