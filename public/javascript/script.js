@@ -18,7 +18,7 @@ a.addEventListener('submit',(e)=>{
     
     e.preventDefault()
     const k=b.value;
-    fetch(`http://localhost:3000/weather?address=${k}`).then((response)=>{
+    fetch(`/weather?address=${k}`).then((response)=>{
     response.json().then((data)=>{
         if(data.error){
             console.log(data)
