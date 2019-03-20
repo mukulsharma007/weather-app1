@@ -6,11 +6,12 @@
   "dependencies": {
     "express": "^4.16.4",
     "hbs": "^4.0.3",
+    "npm": "^6.9.0",
     "request": "^2.88.0"
   },
   "devDependencies": {},
   "scripts": {
-    "start":"node app.js"
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC"
