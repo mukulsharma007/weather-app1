@@ -10,7 +10,7 @@ const h=path.join(__dirname,'public');
 console.log(h)
 const m=path.join(__dirname,'/templates/views');
 const k=path.join(__dirname,'/templates/partials');
-const port=process.env.PORT||3000;
+
 
 app.set('views',m)
 hbs.registerPartials(k);
@@ -88,4 +88,4 @@ app.get(('*'),(req,res)=>{
     })})
     
 
-app.listen(port)
+app.listen(3000)
